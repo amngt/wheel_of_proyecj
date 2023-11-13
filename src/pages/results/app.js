@@ -1,1 +1,0 @@
-import "result-style.scss"

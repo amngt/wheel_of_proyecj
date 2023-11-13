@@ -1,5 +1,5 @@
-import './pages/home/footer.js';
-import './pages/home/header.js';
+import './src/pages/home/footer.js';
+import './src/pages/home/header.js';
 
 window.addEventListener('DOMContentLoaded', (event) => {
 
@@ -12,4 +12,3 @@ window.addEventListener('DOMContentLoaded', (event) => {
   .then(response => response.text())
   .then(html => document.body.insertAdjacentHTML('beforeend', html));
 });
-
