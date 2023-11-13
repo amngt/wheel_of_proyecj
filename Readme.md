@@ -16,3 +16,8 @@ npm run dev
 npm run build
 npm run preview
 ```
+### Fontawesome
+# Free icons styles
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-regular-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
