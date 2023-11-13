@@ -1,5 +1,5 @@
-import './src/pages/home/footer.js';
-import './src/pages/home/header.js';
+import './pages/home/footer.js';
+import './pages/home/header.js';
 
 window.addEventListener('DOMContentLoaded', (event) => {
 

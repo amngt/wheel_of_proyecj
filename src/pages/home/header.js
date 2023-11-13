@@ -14,7 +14,7 @@ document.getElementById('header').innerHTML = `
      <i class="fa-solid fa-gear navbar-toggle" ></i>
      <div class="dropdown-menu" id="configNav">
         <audio controls autoplay loop >
-          <source src="../../assets/audio/Western Modern Soundtrack - Freedom Trail Studio.mp3" type="audio/mpeg">
+          <source src="../src/assets/audio/Western Modern Soundtrack - Freedom Trail Studio.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
     </div>
@@ -28,7 +28,7 @@ document.getElementById('header').innerHTML = `
         <ul class="navbar-nav ">
             <li> <a href="/">Home</a></li>
             <li> <a href="../players/index.html">Players</a></li>
-                      <li> <a href="../results/index.html">Results</a></li>
+            <li> <a href="../results/index.html">Results</a></li>
             <li> <a href="#">Settings</a></li>
         </ul>
       </div>
