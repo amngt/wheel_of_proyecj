@@ -1,0 +1,20 @@
+footer {
+    margin-top: 50%;//despues quitar
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #E9D6B2 !important;
+ 
+    i{
+        color:#663F2D;
+        font-size: 1rem;
+    }
+    p{
+        margin-left: 25%;
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+   }
+   

@@ -1,0 +1,103 @@
+header {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #E9D6B2;
+   
+  i{
+    color: #663F2D;
+    font-size:xx-large;
+    margin-bottom: 5%;
+    margin-left: -70%;
+  }
+    .logo {
+      width: 50%;
+      height: auto;
+      margin-left: 25%;
+    }
+  
+    li {
+      list-style: none;
+      margin-left: 250%;
+      line-height: 2rem;
+      font-size: x-large;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #663F2D;
+      cursor: pointer;
+    }
+    .navbar-toggle{
+        margin-top: -15%;
+    }
+    .navbar-toggle span {
+      display: block;
+      height: 3px;
+      width: 28px;
+      margin: 8px auto;
+      border-radius: 2px;
+      background-color: #663F2D;
+      margin-left: 90%;
+    }
+
+  .dropdown-menu{
+    background-color: #E9D6B2;
+    display: none;
+    
+        &.activado {
+          display: flex;
+          animation: muestraMenu 350ms ease-in-out both;
+        }
+      #configNav{
+        background-color: #E9D6B2;
+          display: none;
+          
+              &.activado {
+                display: flex;
+                animation: muestraMenu 350ms ease-in-out both;
+              }
+             
+      }
+      
+  
+      @keyframes muestraMenu {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+      .nav-icons .activado {
+        display: flex;
+        animation: muestraMenu 350ms ease-in-out both;
+      }
+      
+      .navbar-toggler.girar:hover {
+        transform: rotate(360deg);
+      }
+      .navbar-toggler.girar {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .navbar-toggler .br-1.animado {
+        transform: translateY(11px) rotate(45deg);
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .navbar-toggler .br-2.animado {
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      .navbar-toggler .br-3.animado {
+        transform: translateY(-11px) rotate(-45deg);
+        transition: transform 0.3s ease-in-out;
+      }
+}
+}
