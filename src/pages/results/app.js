@@ -1,1 +1,1 @@
-import "result-style.scss"
+import "../../assets/styles/players-style.scss";

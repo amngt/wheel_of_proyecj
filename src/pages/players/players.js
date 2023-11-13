@@ -1,3 +1,2 @@
-import '../home/footer.js';
-import '../home/header.js';
-import "players-style.scss";
+
+import "../../assets/styles/players-style.scss";
