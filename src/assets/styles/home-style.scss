@@ -1,2 +1,57 @@
 @use 'footer-style.scss';
 @use 'header-style.scss';
+
+
+
+#monster_home{
+    width: 75%;
+    margin: auto;
+    display: block;
+   
+}
+
+#door_home{
+    width: 95%;
+    margin: auto;
+    display: block;
+    
+    margin-top: -23%;
+}
+
+#logo_home {
+    width: 85%;
+    margin: auto;
+    display: block;
+    margin-top: -50%;
+
+}
+/*
+#boton_inicio {
+    margin-top: 100px;
+    background-color: #9C7D68;
+    stroke-width: 1px;
+    color: yellow;
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: distribute;
+    line-height: 30px;
+}*/
+
+#start {
+    background-color: #9C7D68;
+    border-radius: 1vw;
+    border-color: #e7d8b4 ;
+    width: 50%;
+    height: 10vw;
+    font-size: 4vw;
+    margin: auto;
+    margin-top: 20vw;
+    display: block;
+   
+    
+}
