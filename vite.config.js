@@ -1,21 +1,18 @@
-import { resolve } from "path";
-import { defineConfig } from "vite";
+// vite.config.js
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
 
-export default defineConfig ({
-    root: 'src',
-    publicDir: '../public',
-    build: {
-        outDir: '../dist',
-        emptyOutDir: true,
-        rollupOptions: {
-            manifest: true,
-            input: {
-                main: resolve(__dirname,'src/index.html'),
-                about: resolve(__dirname, 'src/pages/about/index.html'),
-                contact: resolve(__dirname, 'src/pages/contact/index.html'),
-                player: resolve(__dirname, 'src/pages/players/index.html'),
-                results: resolve(__dirname, 'src/pages/results/index.html'),
-            }
-        }
-    }
+export default defineConfig({
+ build: {
+   rollupOptions: {
+     input: {
+       home: resolve(__dirname, 'index.html'),
+       player: resolve(__dirname, 'src/pages/players/players.html'),
+       results: resolve(__dirname, 'src/pages/results/results.html'),
+  
+     },
+   },
+ },
+
+  
 })
